@@ -1,0 +1,253 @@
+.item {
+    margin: 1rem 0;
+  }
+  
+  .image {
+    width: 100%;
+    height: 20rem;
+    overflow: hidden;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+    text-align: center;
+  }
+  
+  .image img {
+    margin-top: 40px;
+    width: 250;
+    height: 250;
+    
+  }
+  
+  .content {
+    text-align: center;
+    padding: 1rem;
+  }
+
+
+  
+  .content h3 {
+    font-size: 1.25rem;
+    color: #2c292b;
+  }
+
+  .content p {
+    text-align: justify;
+  }
+  
+  .actions {
+    padding: 1.0rem;
+    text-align: center;
+  }
+  
+  .actions button {
+    font: inherit;
+    cursor: pointer;
+    color: #1c7700;
+    border: 1px solid #1c7700;
+    background-color: transparent;
+    padding: 0.5rem 1.5rem;
+    border-radius: 4px;
+  }
+  
+  .actions button:hover,
+  .actions button:active {
+    background-color: #dbf5d6;
+  }
+  
+  .normal {
+    display: inline-block;
+    font-size: 11.5px;
+    font-style: bold;
+    color: #FFF;
+    margin: 2px;
+    width: 45px;
+    background: #A8A878; 
+    border-radius: 2px;
+  }
+
+  .fire {
+    display: inline-block;
+    font-size: 11.5px;
+    font-style: bold;
+    color: #FFF;
+    margin: 2px;
+    width: 45px;
+    background: #F08030; 
+    border-radius: 2px;
+  }
+
+  .fighting {
+    display: inline-block;
+    font-size: 11.5px;
+    font-style: bold;
+    color: #FFF;
+    margin: 2px;
+    width: 45px;
+    background: #C03028; 
+    border-radius: 2px;
+  }
+
+  .water {
+    display: inline-block;
+    font-size: 11.5px;
+    font-style: bold;
+    color: #FFF;
+    margin: 2px;
+    width: 45px;
+    background: #6890F0; 
+    border-radius: 2px;
+  }
+
+  .flying {
+    display: inline-block;
+    font-size: 11.5px;
+    font-style: bold;
+    color: #FFF;
+    margin: 2px;
+    width: 45px;
+    background: #A890F0; 
+    border-radius: 2px;
+  }
+
+  .grass {
+    display: inline-block;
+    font-size: 11.5px;
+    font-style: bold;
+    color: #FFF;
+    margin: 2px;
+    width: 45px;
+    background: #78C850; 
+    border-radius: 2px;
+  }
+
+  .poison {
+    display: inline-block;
+    font-size: 11.5px;
+    font-style: bold;
+    color: #FFF;
+    margin: 2px;
+    width: 45px;
+    background: purple; 
+    border-radius: 2px;
+  }
+  
+  .electric {
+    display: inline-block;
+    font-size: 11.5px;
+    font-style: bold;
+    color: #FFF;
+    margin: 2px;
+    width: 45px;
+    background: #F8D030; 
+    border-radius: 2px;
+  }
+
+  .ground {
+    display: inline-block;
+    font-size: 11.5px;
+    font-style: bold;
+    color: #FFF;
+    margin: 2px;
+    width: 45px;
+    background: #E0C068; 
+    border-radius: 2px;
+  }
+
+  .psychic {
+    display: inline-block;
+    font-size: 11.5px;
+    font-style: bold;
+    color: #FFF;
+    margin: 2px;
+    width: 45px;
+    background: #F85888; 
+    border-radius: 2px;
+  }
+
+  .rock {
+    display: inline-block;
+    font-size: 11.5px;
+    font-style: bold;
+    color: #FFF;
+    margin: 2px;
+    width: 45px;
+    background: #B8A038; 
+    border-radius: 2px;
+  }
+
+  .ice {
+    display: inline-block;
+    font-size: 11.5px;
+    font-style: bold;
+    color: #FFF;
+    margin: 2px;
+    width: 45px;
+    background: #98D8D8; 
+    border-radius: 2px;
+  }
+
+  .bug {
+    display: inline-block;
+    font-size: 11.5px;
+    font-style: bold;
+    color: #FFF;
+    margin: 2px;
+    width: 45px;
+    background: #A8B820; 
+    border-radius: 2px;
+  }
+
+  .dragon {
+    display: inline-block;
+    font-size: 11.5px;
+    font-style: bold;
+    color: #FFF;
+    margin: 2px;
+    width: 45px;
+    background: #7038F8; 
+    border-radius: 2px;
+  }
+
+  .ghost {
+    display: inline-block;
+    font-size: 11.5px;
+    font-style: bold;
+    color: #FFF;
+    margin: 2px;
+    width: 45px;
+    background: #705898; 
+    border-radius: 2px;
+  }
+
+  .dark {
+    display: inline-block;
+    font-size: 11.5px;
+    font-style: bold;
+    color: #FFF;
+    margin: 2px;
+    width: 45px;
+    background: #705848; 
+    border-radius: 2px;
+  }
+
+  .steel {
+    display: inline-block;
+    font-size: 11.5px;
+    font-style: bold;
+    color: #FFF;
+    margin: 2px;
+    width: 45px;
+    background: #B8B8D0; 
+    border-radius: 2px;
+  }
+
+  .fairy {
+    display: inline-block;
+    font-size: 11.5px;
+    font-style: bold;
+    color: #FFF;
+    margin: 2px;
+    width: 45px;
+    background: #EE99AC; 
+    border-radius: 2px;
+  }

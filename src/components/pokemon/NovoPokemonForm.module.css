@@ -1,0 +1,92 @@
+.form {
+    padding: 1rem;
+  }
+  
+  .control {
+    margin-bottom: 0.5rem;
+  }
+  
+  .control label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .control input,
+  .control textarea {
+    display: block;
+    font: inherit;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    padding: 0.25rem;
+    width: 100%;
+  }
+  
+  .buttondiv {
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    display: flex;
+  }
+  
+  .novopokebutton {
+    margin-top: 3rem;
+    text-align: right;
+    font: inherit;
+    cursor: pointer;
+    background-color: #1c7700;;
+    color: white;
+    padding: 0.5rem 1.5rem;
+    border: 1px solid #1c7700;;
+    border-radius: 4px;
+    font-weight: bold;
+  }
+
+  .novopokebutton:hover {
+    background-color: #27a50e;
+    border-color: #27a50e;
+  }
+
+  .novopokebutton:active {
+    background-color: #1c7700;
+    border-color: #1c7700;
+  }
+  
+  .novopokealtbutton {
+    margin-top: 3rem;
+    text-align: left;
+    font: inherit;
+    cursor: pointer;
+    background-color: #1c7700;;
+    color: #1c7700;
+    padding: 0.5rem 1.5rem;
+    border: 1px solid #1c7700;;
+    border-radius: 4px;
+    font-weight: bold;
+    background-color: transparent;
+  }
+  
+  .novopokealtbutton:hover {
+    background-color: #dbf5d6;
+    border-color: #27a50e;
+  }
+
+  .novopokealtbutton:active {
+    background-color: #c8e0c3;
+    border-color: #1c7700;
+  }
+
+  .modalbox {
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    background-color: white;
+    padding: 0.5rem;
+    width: 30rem;
+    height: 34rem;
+    z-index: 10;
+    position: fixed;
+    top: calc(50% - 17rem);
+    left: calc(50% - 15rem);
+  }
