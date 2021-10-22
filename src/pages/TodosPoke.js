@@ -63,7 +63,7 @@ function TodosPoke() {
     if (isLoading) {
         return (
             <section>
-                <p>Carregando...</p>
+                <p>Loading...</p>
             </section>
         );
     }
